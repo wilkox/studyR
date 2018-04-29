@@ -51,7 +51,7 @@ update_note <- function(note, response) {
   # If the note doesn't have an ease or a repetition count initialise these
   # assuming this is the first time the note has been seen
   if (is.null(note$header$ease)) { 
-    note$header$ease <- 2.5
+    note$header$ease <- 1.8
   }
   if (is.null(note$header$repetitions)) { 
     note$header$repetitions <- 0
